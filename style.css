@@ -1,0 +1,637 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    color: #150101;
+}
+li{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+}
+/* header */
+header{
+    height: 862px;
+    width: 100%;
+    background: #F2CEDA;
+    position: relative;
+}
+header .nav-container{
+    width: 80%;
+    height: 79px;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+header .nav-container ul{
+    display: flex;
+    gap: 35px;
+    font-weight: 400;
+    font-size: 15px;
+}
+header .nav-container ul li a span{
+    color: #D23166;
+    font-weight: 700;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+header .header-cont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+header .nav-container .nav-btn button{
+    background: #D23166;
+    border: none;
+    color: white;
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+}
+header .header-cont .header-text{
+    width: 665px;
+    height: 364px;    
+    margin-top: 165px;
+}
+header .header-cont .header-text h3{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+header .header-cont .header-text h1{
+    font-family: "Fredoka", sans-serif;
+    line-height: 69.08px;
+    font-size: 57.33px;
+}
+header .header-cont .header-text h1 span{
+    color: #D23166;
+}
+header .header-cont .header-text p{
+    line-height: 27px;
+    font-size: 18px;
+    color: #0F0101;
+    font-family: "Hind Madurai", sans-serif;
+    margin-top: 30px;
+}
+header .header-cont .btn button{
+    background: #D23166;
+    border: none;
+    color: white;
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    margin-top: 45px;
+}
+/* header */
+/* card-section */
+.card-section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+.card-section .cards{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.card-section .cards .card{
+    text-align: center;
+    border: 1px solid #00000008;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-section .cards .card:hover{
+    box-shadow: 20px 20px 50px 0px #00000008;
+}
+.card-section .cards .card{
+    width: 250px;
+    height: 200px;
+}
+.card-section .cards .card .card-value h1{
+    font-size: 20px;
+    line-height: 27.6px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.card-section .cards .card .card-value p{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.32px;
+    margin-top: 10px;
+}
+.card-section .cards .card .card-value{
+    width: 198px;
+    height: 137px;
+    line-height: 30px;
+}
+/* card-section */
+/* information-section */
+.info-main{
+    height: 544.5px;
+    width: 100%;
+    background: #F8EDF0;
+    font-family: sans-serif;
+}
+.info-main .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.info-main .container .info-text{
+    width: 442px;
+    height: 256.71px;
+}
+.info-main .container .info-text h1{
+    font-size: 44.2px;
+    line-height: 48.84px;
+    font-weight: 600;
+}
+.info-main .container .info-text p{
+    color: #150101;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 15px;
+}
+.info-main .container .info-text button{
+    background: #D23166;
+    border: none;
+    color: white;
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    margin-top: 23px;
+}
+/* information-section */
+/* ice-cream prices and coments */
+.products{
+    width: 100%;
+    height: 2346px;
+}
+.products .our-products{
+    margin-top: 100px;
+    height: 1506px;
+}
+.products .our-products .title{
+    display: flex;
+    justify-content: center;
+    font-family: "Hind Madurai", sans-serif;
+}
+.products .our-products .title h1{
+    font-size: 44.2px;
+    font-weight: 600;
+}
+
+.sort-ice-cream{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.sort-ice-cream div{
+    display: flex;
+    gap: 35px;
+} 
+.sort-ice-cream div button{
+    border: none;
+    background-color: transparent;
+    color: #333333b6;
+    font-weight: 600;
+}
+.sort-ice-cream div button span{
+    border-bottom: 3px solid #D23166;
+    color: #000000;
+}
+
+.brown-bread{
+    width: 100%;
+    height: 415px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brown-bread .text{
+    width: 454px;
+    height: 234px;
+}
+.brown-bread .text h1{
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 26px;
+}
+.brown-bread .text p{
+    margin-top: 15px;
+    color: #333333b6;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+}
+.brown-bread .text .new-price{
+    font-family: "Hind Madurai", sans-serif;
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.brown-bread .text .new-price h2{
+    color: #333333b6;
+    font-size: 20px;
+    margin-top: 4px;
+}
+.brown-bread .text button{
+    background: #D23166;
+    border: none;
+    color: white;
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    margin-top: 13px;
+}
+
+.cayenne-chocolate {
+    width: 100%;
+    height: 415px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cayenne-chocolate .text {
+    width: 454px;
+    height: 234px;
+    direction: rtl; 
+    text-align: right;
+}
+.cayenne-chocolate .text h1 {
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 26px;
+}
+.cayenne-chocolate .text p {
+    margin-top: 15px;
+    color: #333333b6;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+}
+.cayenne-chocolate .text .new-price {
+    font-family: "Hind Madurai", sans-serif;
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+    margin-top: 30px;
+    direction: rtl;
+}
+.cayenne-chocolate .text .new-price h2 {
+    color: #333333b6;
+    font-size: 20px;
+    margin-top: 4px;
+}
+.cayenne-chocolate .text button {
+    background: #D23166;
+    border: none;
+    color: white;
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    margin-top: 13px;
+    text-align: center; /* Tugmadagi matnni markazlashtiradi */
+}
+
+.sweet-corn{
+    width: 100%;
+    height: 415px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sweet-corn .text{
+    width: 454px;
+    height: 234px;
+}
+.sweet-corn .text h1{
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 26px;
+}
+.sweet-corn .text p{
+    margin-top: 15px;
+    color: #333333b6;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+}
+.sweet-corn .text .new-price{
+    font-family: "Hind Madurai", sans-serif;
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.sweet-corn .text .new-price h2{
+    color: #333333b6;
+    font-size: 20px;
+    margin-top: 4px;
+}
+.sweet-corn .text button{
+    background: #D23166;
+    border: none;
+    color: white;
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    margin-top: 13px;
+}
+
+.coments{
+    width: 100%;
+    height: 442px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coments .coment{
+    width: 322px;
+    height: 200px;
+}
+.coments .coment .comentator-name{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    gap: 15px;
+}
+.coments .coment .comentator-name .name h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.coments .coment .comentator-name .name p{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.coments .coment .coment-text{
+    margin-top: 25px;
+}
+.coments .coment .coment-text p{
+    font-family: "Roboto", sans-serif;
+    color: #333333b6;
+    font-size: 14px;
+    line-height: 24px;   
+
+}
+.coments .coment .coment-text p span{
+    color: #F6762C;
+}
+
+.comentators{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 57.81px;
+    margin-top: 40px;
+}
+.comentators .small-img{
+    width: 35px;
+    height: 35px;
+}
+.comentators .big-img{
+    width: 57.81px;
+    height: 57.81px;
+}
+.comentators button{
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: #D64374;
+}
+/* ice-cream prices and coments */
+/* App */
+.app{
+    width: 100%;
+    height: 678px;
+    background-color: #F8EDF0;
+}
+.app .app-container .app-img{
+    margin-top: 100px;
+}
+.app .app-container{
+    display: flex;
+}
+.app .app-container .about-app{
+    margin-top: 120px;
+    margin-left: 150px;
+}
+.app .app-container .about-app h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 44.2px;
+    font-weight: 600;
+}
+.app .app-container .about-app p{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    line-height: 21.09px;
+    margin-top: 20px;
+}
+.app .app-container .about-app .items{
+    margin-top: 30px;
+}
+.app .app-container .about-app .items .item{
+    display: flex;
+    gap: 10px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 15px;
+}
+.app .app-container .about-app .items .item h2{
+    font-weight: 400;
+    font-size: 22px;
+}
+.app .app-container .about-app .items .item div{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app .app-container .about-app .btns{
+    height: 77px;
+    display: flex;
+    align-items: center;
+    margin-left: -15px;
+    gap: 10px;
+    margin-top: 50px;
+}
+.app .app-container .about-app .btns img{
+    cursor: pointer;
+}
+/* App */
+/* input for questions */
+.question-section{
+    width: 100%;
+    height: 545px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.question-section .question-container{
+    width: 637px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.question-section .question-container .title h1{
+    font-size: 44px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.question-section .question-container .input-wrapper{
+    position: relative;
+}
+.question-section .question-container input{
+    width: 100%;
+    height: 74px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #FAFAFA;
+    padding-left: 30px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding-right: 150px;
+}
+.question-section .question-container button{
+    position: absolute;
+    right: 10px;
+    top: 65%;
+    transform: translateY(-50%);
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D64374;
+    color: white;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* input for questions */
+/* footer */
+footer{
+    width: 100%;
+    height: 381px;
+    background: #0A0808;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+footer .footer-container{
+    height: 190px;
+    display: flex;
+}
+footer .footer-container .web-info{
+    height: 100%;
+    width: 207px;
+}
+footer .footer-container .web-info p{
+    font-size: 13px;
+    line-height: 16.76px;
+    color: #ffffffab;
+}
+footer .footer-container .web-info .platforms h2{
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-top: 20px;
+}
+footer .footer-container .web-info .platforms .imgs{
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+footer .footer-container .pages{
+    width: 69px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+footer .footer-container .pages ul li{
+    margin-top: 10px;
+}
+footer .footer-container .pages ul li a{
+    color: #ffffffab;
+    font-size: 12px;
+}
+footer .footer-container .pages ul li a span{
+    color: white;
+}
+footer .footer-container .other-info{
+    width: 130px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+footer .footer-container .other-info ul li{
+    margin-top: 15px;
+}
+footer .footer-container .other-info ul li a{
+    color: #ffffffab;
+    font-size: 14px;
+}
+footer .footer-container .newsletter{
+    width: 340px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+footer .footer-container .newsletter h1{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+footer .footer-container .newsletter .input-button-wrapper{
+    display: flex;
+}
+footer .footer-container .newsletter form{
+    margin-top: 10px;
+}
+footer .footer-container .newsletter form input{
+    width: 100%;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border: 2px solid #D23166;
+    background-color: transparent;
+    color: white;
+}
+footer .footer-container .newsletter form button{
+    height: 55px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #FFFFFF;
+    color: white;
+    cursor: pointer;
+    padding: 0 20px;
+    background-color:#D23166;
+}
+footer .footer-container .newsletter .banks{
+    margin-top: 15px;
+}
+/* footer */
